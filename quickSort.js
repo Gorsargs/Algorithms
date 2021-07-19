@@ -10,7 +10,7 @@ function quickSort(start, end, arr) {
 };
 
 function partition(start, end, arr) {
-    //this function is replacing all elements smaller than the pivot to the left of the pivot element.
+    //this function is replacing all the elements smaller than the pivot to the left of the pivot element.
     let pivot = arr[end];
     let i = start - 1;
 
