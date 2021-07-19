@@ -1,4 +1,3 @@
-
 //Separate and dominate , but nothing about feminism .
 
 let MergeTwoArrays = (left, right) => {
@@ -33,14 +32,10 @@ let MergeTwoArrays = (left, right) => {
     return mergedArr;
 };
 
-
-
 let MergeSort = (arr) => {
-    
-    //seperates arr to left and right sorted halves
 
+    //seperates arr to left and right sorted halves
     if (arr.length == 1) {
-    
         return arr;
     };
 
@@ -55,7 +50,6 @@ let MergeSort = (arr) => {
             righthalf.push(arr[i]);
         };
     };
-
 
     let left = MergeSort(lefthalf);
     let right = MergeSort(righthalf);
