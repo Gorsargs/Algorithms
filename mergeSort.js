@@ -1,4 +1,4 @@
-//Separate and dominate , but nothing about feminism .
+//divide and conquer
 
 let MergeTwoArrays = (left, right) => {
 
